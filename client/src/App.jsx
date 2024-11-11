@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Sidebar from "./Components/Sidebar";
 import Home from "./Components/Home.jsx";
 import Skills from "./Components/Skills.jsx";
+import Footer from "./Components/Footer.jsx";
 
 export default function App() {
   return (
