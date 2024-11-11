@@ -16,7 +16,10 @@ export default {
       },
       spacing: {
         '2.5': "0.625rem",
-      }
+      },
+      fontFamily: {
+        inter: ["Inter", "sans-serif"],
+      },
     },
   },
   plugins: [flowbitePlugin],
