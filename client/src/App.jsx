@@ -8,7 +8,7 @@ import Footer from "./Components/Footer.jsx";
 export default function App() {
   return (
     <BrowserRouter>
-      <div className="flex h-screen">
+      <div className="sm:flex h-screen">
         <Sidebar />
         <div className="flex-1 p-4 font-inter font-normal">
           <Routes>

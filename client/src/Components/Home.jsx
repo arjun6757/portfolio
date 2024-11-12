@@ -4,7 +4,7 @@ import Footer from "./Footer";
 export default function Home() {
   return (
     <>
-      <div className="flex flex-col gap-10 m-6 rounded-3xl p-8 bg-primary sm:flex-row">
+      <div className="flex flex-col gap-10 m-6 mx-2 rounded-3xl p-8 bg-primary sm:flex-row">
         <div className="w-1/2">
           <img
             src="https://arjun6757.github.io/personal-site/Resources/image.png"
@@ -22,7 +22,7 @@ export default function Home() {
           </p>
         </div>
       </div>
-      <Footer className="text-white text-center w-100% p-5 m-6 bg-primary rounded-xl" />
+      <Footer className="text-white text-center w-100% p-5 sm:mb-0 m-2 mb-20 bg-primary rounded-xl" />
     </>
   );
 }
